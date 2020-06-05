@@ -729,9 +729,9 @@ $(document).ready( async function() {
   initWeb3();
   init();
 
-  AppAutorite();
+  //AppAutorite();
   
-  Organ();
+  //Organ();
      if (typeof window !== 'undefined' && typeof window.web3 !== 'undefined') {
         returnNom();
            }
@@ -741,8 +741,8 @@ $(document).ready( async function() {
   //console.log(removeDuplicatess(getDuplicates(a)));
   //console.log("true "+contract_org.options.address)
   //elementTrouver(contract_org.options.address).then(result=>{console.log(result)});
-  nomOrgan();
-  verifierHash();
-  AppVerifier();
+  //nomOrgan();
+ // verifierHash();
+ // AppVerifier();
   
 });
