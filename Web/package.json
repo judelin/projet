@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/judelin/projet/issues"
   },
-  "homepage": "https://github.com/judelin/projet#readme"
+  "homepage": "https://github.com/judelin/projet#readme",
   "devDependencies": {
     "css-loader": "^3.5.3",
     "file-loader": "^6.0.0",
