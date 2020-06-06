@@ -1,5 +1,5 @@
-import Autorite from 'C:/Users/judelin/Desktop/ProjetIft/Autorite/build/contracts/Autorite';
-import Organisation from 'C:/Users/judelin/Desktop/ProjetIft/Organisations/build/contracts/Organisation';
+//import Autorite from 'C:/Users/judelin/Desktop/ProjetIft/Autorite/build/contracts/Autorite';
+//import Organisation from 'C:/Users/judelin/Desktop/ProjetIft/Organisations/build/contracts/Organisation';
 
 
 import './index.css';
@@ -727,13 +727,13 @@ function AppVerifier(){
 $(document).ready( async function() {
  
   initWeb3();
-  init();
+  //init();
 
   //AppAutorite();
   
   //Organ();
      if (typeof window !== 'undefined' && typeof window.web3 !== 'undefined') {
-        returnNom();
+        //returnNom();
            }
       else{}
   //tabb();
