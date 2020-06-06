@@ -20,7 +20,7 @@ module.exports = {
   },
 
   target: 'node',
-  mode:'development',
+  mode:'production',
   output: {
     path: path.resolve(__dirname, 'distWebi'),
     filename: '[name].js'
