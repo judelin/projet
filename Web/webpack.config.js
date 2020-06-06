@@ -22,16 +22,16 @@ module.exports = {
   target: 'node',
   mode:'production',
   output: {
-    path: path.resolve(__dirname, 'distWebi'),
+    path: path.resolve(__dirname, 'dist'),
     filename: '[name].js'
   },
    externals: nodeModules,
 
-  // devServer: {
+  //devServer: {
     // contentBase: path.join(__dirname, 'distWebi'),
     // compress: true,
     // port: 9000
-  // },
+  //},
 plugins:[
   new HtmlWebpackPlugin({
      filename: 'AjouterDocument.html',
