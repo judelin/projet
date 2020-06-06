@@ -1,0 +1,164 @@
+ body{ 
+   background-image: url(image/image2.jpg);
+    background-repeat:no-repeat;
+     background-size:cover;
+     opacity:0.6;
+    
+ }
+.container{
+  background:black;
+}
+ .hea{
+
+  text-align: center;
+  color:white;
+ }
+ main{
+  
+    padding-bottom:37%;
+ }
+.footer {
+
+ background-image: url(image/image5.jpg); 
+  color: white;
+  text-align: center;
+
+}
+.back{
+  background-image: url(image/metamask.png);
+  background-size:100% 100%;
+  padding: 5%;
+ 
+
+}
+.back1{
+  background-image: url(image/trustWal.png);
+  background-size:140% 100%;
+  padding: 5%;
+ 
+
+}
+.back2{
+  background-image: url(image/authereum.png);
+  background-size:100% 100%;
+  padding: 5%;
+ 
+
+}
+.backgr{
+  background-color: gray;
+ 
+ 
+
+}
+
+.navaB{
+  background-image: url(image/image5.jpg);
+  
+}
+.centAl{
+
+ padding-top: 15%;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+#grad {
+  background-image: radial-gradient(red, yellow, green);
+}
+#dataIn{
+ 
+}
+.log{
+  padding-top: 5%;
+  text-align: center;
+}
+
+.dataI{
+  padding-top:5%;
+}
+a{
+  color:white;
+}
+.nav-item{
+  color:white;
+}
+th,td{
+  color: white;
+}
+#id,#idi{
+  color: white;
+
+
+}
+
+.tabi{
+ font-size: 90%;
+}
+
+#menu{
+  position: relative;
+}
+.logBut{
+  background-color: transparent;
+  border:none;
+  color:white;
+}
+#cl,#clLog{
+  color:black;
+}
+
+ div.b{
+  white-space: nowrap; 
+  width: 189px; 
+  overflow: hidden;
+  text-overflow: clip; 
+  border: 1px solid #000000;
+}
+
+#c{
+  white-space: nowrap; 
+  width: 167px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  border: 1px solid #000000;
+}
+
+div.a{
+  white-space: nowrap; 
+  width: 200px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  border: 1px solid #000000;
+}
+
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: gray;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
