@@ -27,11 +27,11 @@ module.exports = {
   },
    externals: nodeModules,
 
-  devServer: {
-    contentBase: path.join(__dirname, 'distWebi'),
-    compress: true,
-    port: 9000
-  },
+  // devServer: {
+    // contentBase: path.join(__dirname, 'distWebi'),
+    // compress: true,
+    // port: 9000
+  // },
 plugins:[
   new HtmlWebpackPlugin({
      filename: 'AjouterDocument.html',
